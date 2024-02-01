@@ -2,7 +2,7 @@ import { Grid, Header, Form, Segment, Button } from "semantic-ui-react";
 
 import { useMutation } from "@tanstack/react-query";
 import { mutationLogin } from "./Mutation";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Auth = () => {
   const navigate = useNavigate();

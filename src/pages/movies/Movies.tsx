@@ -1,4 +1,3 @@
-import React from "react";
 import { Segment, Header, Loader, Grid, Image, List } from "semantic-ui-react";
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
