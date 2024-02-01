@@ -2,9 +2,9 @@ import { DisplayType } from "./Home";
 import { Grid, Card, Form } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { rateMovie } from "./mutation";
+import { rateMovie } from "./Mutation";
 import { useMutation } from "@tanstack/react-query";
-import { ratebigTvShow } from "./mutation";
+import { ratebigTvShow } from "./Mutation";
 
 interface DisplayData {
   id: number;
